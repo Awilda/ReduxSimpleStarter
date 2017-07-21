@@ -21,10 +21,14 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+<<<<<<< HEAD
     contentBase: './',
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000
     }
+=======
+    contentBase: './'
+>>>>>>> upstream/master
   }
 };
